@@ -32,12 +32,15 @@ final class Abstract {
     * @param args this will not be used
     */
     public static void main(final String[] args) {
+        // Variables/Constants
         final Truck cheif = new Truck("Blue", 210, "HFEIK", 4);
         final Bicycle zeus = new Bicycle("Red", 30, 2, 0, true);
 
-        cheif.setLicensePlate("B2J9VH");
-        System.out.println("Cheif's license plate is "
-                           + cheif.getLicensePlate());
+        /*
+        * Compiling an abstract class will cause an error, so this code
+        * does not work.
+        */
+        final Vehicle Helicopter = new Vehicle("Red", 190);
 
         System.out.println("Zeus has " + zeus.getQuantityWheels()
                            + " wheels.");

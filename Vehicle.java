@@ -9,7 +9,7 @@
 /**
 * This is the class that contains many functions.
 */
-public class Vehicle {
+abstract class Vehicle {
 
     /**
     * The current speed.
