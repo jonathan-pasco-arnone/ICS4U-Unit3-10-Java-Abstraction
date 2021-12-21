@@ -40,7 +40,7 @@ final class Abstract {
         * Compiling an abstract class will cause an error, so this code
         * does not work.
         */
-        final Vehicle Helicopter = new Vehicle("Red", 190);
+        final Vehicle helicopter = new Vehicle("Red", 190);
 
         System.out.println("Zeus has " + zeus.getQuantityWheels()
                            + " wheels.");
